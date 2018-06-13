@@ -19,12 +19,6 @@ const Header = props => {
         <LinkContainer to="/login">
           <NavItem eventKey={2}>Log in</NavItem>
         </LinkContainer>
-        <LinkContainer to="/UserProfile">
-          <NavItem eventKey={2}>User Profile</NavItem>
-        </LinkContainer>
-        <LinkContainer exact to="/ProfileList">
-          <NavItem eventKey={2}>Profile List</NavItem>
-        </LinkContainer>
       </Nav>
     </Navbar>
   );
